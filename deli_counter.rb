@@ -5,8 +5,8 @@ def line(array)
     output_message << " empty."
   else
     array.each do |customer|
-    output_message += " customer"
-    end
+    output_message += customer.index + customer
+  end
 
   end
 puts output_message
