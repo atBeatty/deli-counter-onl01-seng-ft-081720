@@ -5,7 +5,7 @@ def line(array)
     output_message + " empty."
   else
     array.each do |customer|
-    output_message += "#{i} customer"  
+    output_message += "#{i} customer"
     end
 
   end
