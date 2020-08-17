@@ -7,5 +7,5 @@ def line(customer)
 end
 
 def take_a_number(array, new_customer)
-  puts "Welcome, #{new_customer}. You are number #{array.size - 1}"
+  puts "Welcome, #{new_customer}. You are number #{array.size + 1}"
 end
