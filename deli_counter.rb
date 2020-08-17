@@ -19,6 +19,5 @@ def take_a_number(array, name)
     array[0] = name
   else
     array << name
-
-
+  end
 end
