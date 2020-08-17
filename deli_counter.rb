@@ -9,5 +9,5 @@ def line(array)
     end
 
   end
-
+puts output_message
 end
