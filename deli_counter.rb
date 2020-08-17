@@ -7,7 +7,7 @@ def line(array)
     line_list = ""
     array.each_with_index do |value, index|
       line_spot = index + 1
-      line_list += "#{line_spot}. #{value}"
+      line_list += "#{line_spot}. #{value} "
 
     end
     puts line_list
