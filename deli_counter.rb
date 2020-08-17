@@ -16,7 +16,7 @@ end
 
 def take_a_number(array, name)
   if array.size == 0
-    array[0] = name
+    array << name
   else
     array << name
   end
