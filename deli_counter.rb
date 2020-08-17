@@ -10,7 +10,7 @@ def line(array)
       line_list += "#{line_spot}. #{value} "
 
     end
-    puts line_list
+    puts "The line is currently: #{line_list}
   end
 
 end
