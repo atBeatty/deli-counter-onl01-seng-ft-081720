@@ -12,5 +12,13 @@ def line(array)
     end
     puts "The line is currently:#{line_list}"
   end
+end
 
+def take_a_number(array, name)
+  if array.size == 0
+    array[0] = name
+  else
+    array << name
+    
+  
 end
