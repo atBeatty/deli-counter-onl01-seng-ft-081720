@@ -5,5 +5,5 @@ def line(array)
   else
     array
   end
-  
+
 end
